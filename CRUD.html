@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff; /* Set background color to white */
+            color: #000; /* Set text color to black */
+            margin: 0;
+            padding: 0;
+        }
+
+        .mainWrapper {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            align-items: center;
+            background-color: #eee; /* Set a light gray background for the main wrapper */
+            border-radius: 10px; /* Add some border radius for a rounded appearance */
+        }
+
+        h1 {
+            color: #000; /* Set heading color to black */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #000; /* Set button background color to black */
+            color: #fff; /* Set button text color to white */
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+
+        #a {
+          color: #fff;
+          text-decoration: none;
+        }
+        a {
+            color: #fff; /* Set link color to black */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainWrapper">
+        <h1>Your Memo!</h1>
+        <form>
+            <div class="form-group">
+                <label>File name</label>
+                <input id="fileName" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label>Content</label>
+                <textarea id="fileContents" class="form-control" rows="5"></textarea>
+            </div>
+        </form>
+
+        <button id="btnCreate" class="btn btn-default">Create</button>
+        <button id="btnRead" class="btn btn-default">Read</button>
+        <button id="btnDelete" class="btn btn-default">Delete</button>
+        <button id="btnUpdate" class="btn btn-default">Update</button>
+        <button ><a href="index.html" id="a1">Back</a></button>
+    </div>
+
+    <script src="CRUD.js"></script>
+</body>
+</html>

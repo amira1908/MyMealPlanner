@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Cravings</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            }
+
+        div {
+            text-align: center;
+        }
+
+        h1 {
+            color: #f8f4f4;
+        }
+
+        button {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #6a6a6a;
+        }
+
+        input {
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            color: #000000;
+        }
+
+        #display {
+            color: #fbfbfb;
+            margin-top: 20px;
+        }
+        
+        #a1{
+            color: #000000;
+            text-decoration: none;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>WELL HEY THERE! HAVE SOMETHING IN YOUR MIND...</h1>
+        <h2>Maybe Craving Something but don't know what to cook or don't know the recipe?</h2>
+        <h3>We have the Solutions</h3>
+        <h4>Satisfy Your Cravings with Flavorful Creations!</h4>
+        <input type="text" id="meal_input" placeholder="Enter Your Craving">
+        <button type="button" onclick="buttonClicked()">Enter</button>
+        <button type="button" onclick="buttonClicked2()">Random Meal</button>
+        <button><a href="CRUD.html" id="a1">add Memo</a></button>
+        <p id="display"></p>
+    </div>
+    
+
+    
+</body>
+
+<script src="main.js"></script>
+    
+</html>
